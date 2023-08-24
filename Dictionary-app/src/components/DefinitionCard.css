@@ -1,0 +1,92 @@
+.definition-card-wrapper {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 2rem;
+background-color: #fff;
+border-radius: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease-in-out;
+margin: 1rem;
+margin-left: auto;
+margin-right: auto;
+max-width: 90%;
+
+}
+
+.title {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row; /* Change to column to stack elements vertically */
+    align-items:center; /* Center align horizontally */
+    
+}
+
+
+
+.title h2 {
+    margin-right: 0.5rem; /* Reset margin to remove default spacing */
+    margin-bottom: 0.5rem; /* Add a little space between h2 and p */
+    font-size: 2em;
+}
+
+.title p {
+    margin-right: 0.5rem; /* Reset margin to remove default spacing */
+}
+
+.line-break {
+    size: 1px;
+    width: 90%;
+    color: black;
+}
+
+.meanings {
+    max-width: 100%;
+    text-align: left;
+}
+
+.meanings h3 {
+    margin-top: 0.5rem;
+}
+
+.definitions {
+padding: 1rem;
+border-radius: 20px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease-in-out;
+margin: 1rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+.definitions:hover {
+transform: scale(1.05);
+}
+
+.definitions li {
+    margin-left: 0.5rem;
+}
+
+#example {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.synonyms-antonyms-buttons {
+    background-color:#6f9bca;
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: transform 0.2s ease-in-out;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.synonyms-antonyms-buttons:hover {
+   transform: scale(1.05);
+   background-color: #588cc4;
+}
